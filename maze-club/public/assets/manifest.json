@@ -1,0 +1,16 @@
+{
+  "format": "glTF 2.0 / GLB",
+  "runtime": "Three.js GLTFLoader",
+  "conventions": {
+    "upAxis": "Y",
+    "unit": "meters",
+    "characterForward": "+Z",
+    "rootNode": "AvatarRoot",
+    "skeletonRoot": "Armature",
+    "animationClips": ["Idle", "Walk", "Run", "Emote"]
+  },
+  "optionalOverrides": {
+    "avatar": "/assets/avatars/player.glb"
+  },
+  "note": "The prototype builds a lightweight animated rig from procedural meshes when no GLB is supplied. Add an optimized GLB at the optional override path to use a custom rigged avatar."
+}
